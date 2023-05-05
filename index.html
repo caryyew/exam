@@ -8,7 +8,7 @@
     <title>Document</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <head>
         <div class="bg-success">
             <div class="bg-success text-white">
-                <nav class="navbar navbar-expand-lg " aria-label="Fifth navbar example">
+                <nav class="container navbar navbar-expand-lg " aria-label="Fifth navbar example">
                     <div class="container-fluid text-white">
                         <div class="text-white"><i class="bi bi-arrow-through-heart"></i></div>
                         <a class="navbar-brand" href="#">
@@ -34,11 +34,13 @@
                                         <div class="text-white">Home</div>
                                     </a>
                                 </li>
+                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">
                                         <div class="text-white">Link</div>
                                     </a>
                                 </li>
+
                                 <li class="nav-item dropdown">
                                     <a class="text-white nav-link dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,6 +52,7 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
+
                                 <li class="nav-item dropdown">
                                     <a class="text-white nav-link dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,10 +63,11 @@
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
-                                    
+
                                 </li>
                                 <li>
-                                    <button type="button"class="btn btn-light rounded-pill fw-bold text-danger">BUY NOW</button>
+                                    <button type="button" class="btn btn-light rounded-pill fw-bold text-danger">BUY
+                                        NOW</button>
                                 </li>
                             </ul>
                         </div>
@@ -74,21 +78,29 @@
 
     <main>
         <div class="container-fluid mt-5 text-center text-white bg-success">
-            <h1 class="fw-bold">Thai food</h1>
-
-            <div> <small><b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim velit alias
-                        tenetur
-                        in, fuga
-                        ipsa dignissimos, officiis,<br> officia perferendis quis exercitationem impedit nulla
-                        explicabo.</b></small>
+            <div data-aos="fade-down">
+                <h1 class="fw-bold">Thai food</h1>
             </div>
-            <div class="mt-5 mb-5 text-center"><button type="button" class="btn btn-light rounded-pill">
-                <i class="bi bi-cart-fill"></i>
+            <div data-aos="fade-up">
+                <div> <small><b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim velit alias
+                            tenetur
+                            in, fuga
+                            ipsa dignissimos, officiis,<br> officia perferendis quis exercitationem impedit nulla
+                            explicabo.</b></small>
+                </div>
+            </div>
+            <div data-aos="flip-left">
+                <div class="mt-5 mb-5 text-center"><button type="button" class="btn btn-light rounded-pill">
+                        <i class="bi bi-cart-fill"></i>
                         ORDER
                         NOW</button>
+                </div>
             </div>
-            <div>
-                <img src="img/taze surat.png" alt="">
+
+            <div data-aos="flip-right">
+                <div>
+                    <img src="img/taze surat.png" alt="">
+                </div>
             </div>
         </div>
         </div>
@@ -96,20 +108,26 @@
 
     <menu>
         <div class="text-center text-success bg-opacity-75 mb-5">
-            <div class="pt-5 pb-0">
-                <h5>NEWCOMER</h5>
+            <div data-aos="fade-up-right">
+                <div class="pt-5 pb-0">
+                    <h5>NEWCOMER</h5>
+                </div>
             </div>
         </div>
+
         <div class="text-center">
-            <div class="pt-0 pb-4">
-                <h2><b>THAI FAST FOOD</b></h2>
+            <div data-aos="fade-up-left">
+                <div class="pt-0 pb-4">
+                    <h2><b>THAI FAST FOOD</b></h2>
+                </div>
             </div>
         </div>
+
         <div class="container pb-5">
             <div class="row">
                 <div class="col-4">
                     <div class="position-relative text-white">
-                        <img src="img/s76.jpg" alt="" class="img-fluid">
+                        <div data-aos="fade-down"><img src="img/s76.jpg" alt="" class="img-fluid"></div>
 
                         <div class="container width250px position-absolute top-50 start-30">
                             <div class="fw-bold bg-light text-black text-center mb-3">
@@ -122,9 +140,10 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4">
                     <div class="position-relative text-white">
-                        <img src="img/s74.jpg" alt="" class="img-fluid">
+                        <div data-aos="fade-down"><img src="img/s74.jpg" alt="" class="img-fluid"></div>
 
                         <div class="container width250px position-absolute top-50 start-30">
                             <div class="fw-bold bg-light text-black text-center mb-3">
@@ -137,9 +156,10 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4">
                     <div class="position-relative text-white">
-                        <img src="img/s75.jpeg" alt="" class="img-fluid">
+                        <div data-aos="fade-down"><img src="img/s75.jpeg" alt="" class="img-fluid"></div>
 
                         <div class="container-fluid width250px position-absolute top-50 start-30">
                             <div class="fw-bold bg-light text-black text-center mb-3">
@@ -161,21 +181,30 @@
             <div class="container pt-5 ">
                 <div class="row align-items-center">
                     <div class="col-4">
-                        <img src="img/sonky.jpeg" alt="" class="img-fluid">
+                        <div data-aos="zoom-in-right"><img src="img/sonky.jpeg" alt="" class="img-fluid"></div>
                     </div>
+
                     <div class="col-4 text-center">
-                        <div class="text-success"><b>WHO ARE WE</b></div>
-                        <div class="text-align">
-                            <h1><b> Best food <br>traditions from <br>the world</b></h1>
+                        <div data-aos="zoom-in-up">
+                            <div class="text-success"><b>WHO ARE WE</b></div>
+                            <div class="text-align">
+                                <h1><b> Best food <br>traditions from <br>the world</b></h1>
+                            </div>
                         </div>
+
                     </div>
+
                     <div class="col-4">
-                        <img src="img/sonky.jpeg" alt="" class="img-fluid">
+                        <div data-aos="zoom-in-left"><img src="img/sonky.jpeg" alt="" class="img-fluid"></div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
