@@ -1,0 +1,4 @@
+[aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+  }
